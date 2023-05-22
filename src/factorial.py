@@ -8,12 +8,11 @@ def factorial(n):
     factorial = 1
     for i in range (1,n+1):
         factorial = factorial * i
-
     return factorial
 
-def sum_factorial():
+def sum_factorial(n):
 
-    for i in range(50):
+    for i in range(n):
 
         final_list.append(factorial(i))
 
@@ -25,4 +24,4 @@ def sum_factorial():
 
 if __name__ == "__main__":
 
-    sum_factorial()
+    sum_factorial(10)

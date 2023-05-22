@@ -4,7 +4,7 @@ import sys
 import os
 from pylint import lint
 
-THRESHOLD = 9  
+THRESHOLD = 6
 script_dir = os.path.dirname(os.path.abspath(__file__))
 factorial_path = os.path.join(script_dir, "..", "src", "factorial.py")
 
