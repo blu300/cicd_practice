@@ -17,6 +17,4 @@ if score < THRESHOLD:
     print("Linter failed: Score < threshold value") 
 
     sys.exit(1) 
-
-
 sys.exit(0) 
