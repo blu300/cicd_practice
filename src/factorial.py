@@ -26,6 +26,3 @@ def sum_factorial():
 if __name__ == "__main__":
 
     sum_factorial()
-
-
-

@@ -1,8 +1,10 @@
 https://www.linkedin.com/pulse/implementing-simple-python-cicd-pipeline-using-github-tom-reid/
 
 Note:
+Instructions are no lionger most up to date.
 
-actions/checkout@v4
-actions/setup-python@v2.2.2
+Currently can run "pylint [file]"
+or
+python ./tests/lint.py
 
-changed from instructions
+to do - add precommit?
