@@ -7,4 +7,7 @@ Currently can run "pylint [file]"
 or
 python ./tests/lint.py
 
-to do - add precommit?
+----------------------
+
+pip install pre-commit
+pre-commit install
