@@ -19,7 +19,7 @@ def sum_factorial():
 
     result=sum(final_list)
 
-    print("Final_SUM = {}".format(result))
+    print("Final__SUM = {}".format(result))
 
     return result
 
