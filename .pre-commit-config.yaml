@@ -3,15 +3,15 @@ repos:
     hooks:
       - id: run-lint
         name: Run tests/lint.py
-        entry: python tests/lint.py
+        entry: python src/tests/test_lint.py
         language: system
         types: [python]
 
-      - id: run-hello
-        name: Run tests/hello.py
-        entry: python tests/hello.py
-        language: system
-        types: [python]
+      # - id: run-hello
+      #   name: Run tests/test_one.py
+      #   entry: python src/tests/test_one.py
+      #   language: system
+      #   types: [python]
 
 
         

@@ -24,4 +24,4 @@ def sum_factorial(n):
 
 if __name__ == "__main__":
 
-    sum_factorial(10)
+    sum_factorial(3)
