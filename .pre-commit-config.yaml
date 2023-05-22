@@ -6,7 +6,7 @@ repos:
         entry: python tests/lint.py
         language: system
         types: [python]
-    hooks:
+
       - id: run-hello
         name: Run tests/hello.py
         entry: python tests/hello.py
