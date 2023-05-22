@@ -12,7 +12,7 @@ on:
 jobs: 
 
   build: 
-    runs-on: ubuntu-la  test 
+    runs-on: ubuntu-latest  test 
     steps: 
     - uses: actions/checkout@v4
     - name: Set up Python 3.8 
