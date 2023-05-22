@@ -6,8 +6,8 @@ on:
   push: 
     branches: [ dev ] 
     paths: 
-    - 'factorial.py' 
-    - 'lint.py' 
+    - 'src/factorial.py' 
+    - 'tests/lint.py' 
  
 jobs: 
 
