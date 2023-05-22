@@ -25,4 +25,4 @@ jobs:
         pip install pylint 
     - name: Lint with pylint 
       run: | 
-        python lint.py 
+        python tests/lint.py 
