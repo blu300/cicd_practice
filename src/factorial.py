@@ -1,5 +1,6 @@
 import time
 
+
 def factorial(number: int) -> int:
     """Find the factorial"""
     time.sleep(0.1)
@@ -13,10 +14,9 @@ def sum_factorial(number: int) -> int:
     """Find the sum of all the numbers in te factorial
     I dont know, I just copied this from the internet to practice CI/CD on"""
 
-
     final_list = []
 
-    for i in range(number): 
+    for i in range(number):
         final_list.append(factorial(i))
 
     result = sum(final_list)

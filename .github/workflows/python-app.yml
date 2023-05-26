@@ -26,3 +26,6 @@ jobs:
     - name: Lint with pylint 
       run: | 
         python src/tests/test_lint.py 
+    - name: testy_boi
+      run: | 
+        python src/tests/test_one.py 
