@@ -8,7 +8,7 @@ try:
 except Exception as e:
     sys.exit(e)
 
-class TestFactorial(unittest.TestCase):
+class TestFactorial(unittest.TestCase):             
     
     def test_three(self):
         self.assertEqual(sum_factorial(3), 4)
