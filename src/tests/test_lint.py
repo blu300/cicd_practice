@@ -3,9 +3,11 @@
 import sys
 from pylint import lint  # type: ignore
 
-THRESHOLD = 6
+THRESHOLD = 9
 
-run = lint.Run(["./src/tests/test_lint.py", "./src/factorial.py"], do_exit=False)
+run = lint.Run([ "./src/*.py"
+    #"./src/tests/test_lint.py", "./src/factorial.py"
+                ], do_exit=False)
 
 score = run.linter.stats.global_note
 
