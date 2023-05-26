@@ -2,3 +2,5 @@ https://www.linkedin.com/pulse/implementing-simple-python-cicd-pipeline-using-gi
 
 Note:
 Instructions are no longer most up to date.
+
+Good little project this...
