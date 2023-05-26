@@ -2,7 +2,7 @@ import time
 
 final_list = []
 
-def factorial(n):
+def factorial(n: int) -> int:
 
     time.sleep(.1)
     factorial = 1
@@ -10,7 +10,7 @@ def factorial(n):
         factorial = factorial * i
     return factorial
 
-def sum_factorial(n):
+def sum_factorial(n:int) -> int:
 
     for i in range(n):
 
