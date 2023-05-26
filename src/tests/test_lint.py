@@ -1,15 +1,13 @@
-#lint.py
+# lint.py
 
 import sys
-from pylint import lint # type: ignore
+from pylint import lint  # type: ignore
 
 THRESHOLD = 6
 
-run = lint.Run([ './src/tests/test_lint.py'
-                ,'./src/factorial.py'
-                ], do_exit=False)
+run = lint.Run(["./src/tests/test_lint.py", "./src/factorial.py"], do_exit=False)
 
-score = run.linter.stats.global_note  
+score = run.linter.stats.global_note
 
 if score < THRESHOLD:
     print("Linter failed: Score < threshold value")
