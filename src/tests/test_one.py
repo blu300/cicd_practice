@@ -1,7 +1,6 @@
 # mypy: ignore-errors
 
 import sys, unittest
-# sys.path.insert(0, os.path.dirname(__file__))
 from src.factorial import sum_factorial
 
 try:
