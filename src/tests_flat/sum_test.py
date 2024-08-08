@@ -1,5 +1,5 @@
 import unittest
-from app.routes import sum
+from cicd.app.routes  import sum
 
 class TestSum(unittest.TestCase):
     def test_list_int(self):
