@@ -1,5 +1,12 @@
 import unittest
-from cicd.app.routes import sum
+
+import sys
+
+sys.path.append("C:\\Users\\Benjamin\\Documents\\Learning\\cicd")
+
+print(sys.path)
+
+from src.app.routes import sum
 
 class TestSum(unittest.TestCase):
     def test_list_int(self):
