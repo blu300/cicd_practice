@@ -17,7 +17,7 @@ def add():
     _list = list(map(int, data.split(',')))
 
     total = sum(_list)
-    return "'Results = " + str(total)
+    return "Results = " + str(total)
 
 def sum(arg):
     try:
