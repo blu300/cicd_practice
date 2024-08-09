@@ -1,7 +1,9 @@
 import unittest
+
 import sys
 
 from src.app.routes import sum
+
 
 class TestSum(unittest.TestCase):
     def test_list_int(self):
