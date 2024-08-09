@@ -1,5 +1,7 @@
-from src.app import test_app
 from flask import request
+
+from src.app import test_app
+
 
 @test_app.route('/')
 @test_app.route('/index')
@@ -8,8 +10,8 @@ def index():
 
 @test_app.route('/test')
 def test_args():
-    lang = request.args.get('language')
-    return 
+    lang = request.args.get('language', "pass an argument")
+    return str(lang)
 
 @test_app.route('/add')
 def add():

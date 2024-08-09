@@ -2,6 +2,7 @@ import unittest
 
 from src.app.routes import sum
 
+
 class TestSum(unittest.TestCase):
     def test_list_int(self):
         data = [1,2,3,4,5]

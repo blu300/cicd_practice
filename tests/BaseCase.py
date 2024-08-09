@@ -1,12 +1,13 @@
-import unittest
-
 import sys
+import unittest
 from pathlib import Path
+
 module_dir = Path(__file__).resolve().parent
 print(module_dir)
 sys.path.append(module_dir)
 
 from src.app import test_app
+
 
 class BaseCase(unittest.TestCase):
     def setUp(self):

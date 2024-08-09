@@ -1,5 +1,5 @@
-import unittest
 import sys
+import unittest
 from pathlib import Path
 
 module_dir = Path(__file__).resolve().parent
@@ -8,6 +8,7 @@ sys.path.append(module_dir)
 
 from src.app.routes import sum
 from tests.BaseCase import BaseCase
+
 # unittest.TestCase
 
 class TestSum(BaseCase):
