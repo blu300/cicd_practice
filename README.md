@@ -7,3 +7,6 @@ pipx ensurepath
 pipx install poetry
 
 pipx ensurepath
+
+
+https://medium.com/thelorry-product-tech-data/unit-testing-and-continues-integration-ci-in-github-action-for-python-programming-c8ad57fae3a1
