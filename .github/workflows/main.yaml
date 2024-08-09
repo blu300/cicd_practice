@@ -55,7 +55,7 @@ jobs:
       run: poetry install
 
     - name: Run Ruff linter
-      run: poetry run ruff . # Run the Ruff linter on the entire project
+      run: poetry run ruff check . # Run the Ruff linter on the entire project
 
     - name: Run unit tests
       run: poetry run python -m unittest discover
