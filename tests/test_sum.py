@@ -8,11 +8,13 @@ sys.path.append(module_dir)
 
 from src.app.routes import sum
 from tests.BaseCase import BaseCase
+# unittest.TestCase
 
-class TestSum(unittest.TestCase):
+class TestSum(BaseCase):
     def test_list_int(self):
         data = [1,2,3,4,5]
         result = sum(data)
+        print("test_list_int")
         self.assertEqual(result, 15)
     
     def test_fail_with_single_value(self):
